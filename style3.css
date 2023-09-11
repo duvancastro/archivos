@@ -1,0 +1,158 @@
+.principal {
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+.center-text{
+    text-align: center;
+}
+
+.a {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+
+.a1 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: HotPink;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.a1-1 {
+    flex-basis: 85%;
+    background-color: red;
+    margin: 5px;
+    
+    
+}
+
+.a1-2 {
+    flex-basis: 40%;
+    margin: 5px;
+
+    background-color: limegreen;
+}
+
+.a1-3 {
+    flex-basis: 40%;
+    margin: 5px;
+
+    background-color: blue;
+}
+
+.a2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DarkOrange;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.a2-1 {
+    flex-basis: 20%;
+    margin: 5px;
+    background-color: blue;
+}
+.a2-2 {
+    flex-basis: 60%;
+    margin: 5px;
+    background-color: limegreen;
+}
+.a2-3 {
+    flex-basis: 85%;
+    margin: 5px;
+
+    background-color: red;
+}
+
+.b {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: brown;
+    margin: 10px;
+}
+.b1{
+    margin: 10px;
+    background-color: red;
+}
+.b2{
+    margin: 10px;
+    background-color: blue;
+}
+.b3{
+    margin: 10px;
+    background-color: limegreen;
+}
+
+.c {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.c1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: chocolate;
+    margin: 5px;
+    justify-content: center; 
+}
+.c1-1{
+    flex-basis: 85%;
+    margin: 5px;
+    background-color: blue;
+}
+.c1-2{
+    flex-basis: 35%;
+    margin: 5px;
+    background-color: red;
+}
+.c1-3{
+    flex-basis: 35%;
+    margin: 5px;
+    background-color: limegreen;
+}
+
+
+
+.c2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: cornflowerblue;
+    margin: 5px;
+    justify-content:space-around; 
+}
+.c2-1{
+    flex-basis: 35%;
+    order: 3;
+    margin: 5px;
+    background-color: blue;
+}
+.c2-2{
+    flex-basis: 35%;
+    order: 2;
+    margin: 5px;
+    background-color: red;
+}
+.c2-3{
+    flex-basis: 85%;
+    order: 1;
+    margin: 5px;
+    background-color: limegreen;
+}
